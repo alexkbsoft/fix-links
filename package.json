@@ -1,0 +1,21 @@
+{
+  "name": "fix-links",
+  "version": "1.0.0",
+  "bin": "./cli.js",
+  "description": "Command line utils to parse web page and fetch specified by selector links to images",
+  "main": "index.js",
+  "preferGlobal": true,
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Alexander Golovanov",
+  "license": "GPL",
+  "dependencies": {
+    "axios": "^0.17.1",
+    "cheerio": "^1.0.0-rc.2",
+    "colors": "^1.1.2",
+    "commander": "^2.12.2",
+    "csv": "^2.0.0",
+    "url-parse": "^1.2.0"
+  }
+}
